@@ -2,4 +2,4 @@
 set -x
 
 
-sudo service demo stop
+sudo /etc/init.d/demo stop
