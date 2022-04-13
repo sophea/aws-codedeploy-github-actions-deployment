@@ -6,7 +6,7 @@ on:
 env:
   applicationfolder: springboot-java11-jar
   AWS_REGION: ap-southeast-1
-  S3BUCKET: aws-codeploy-github-action-webappdeploymentbucket-1f4vuw3u5wdzn
+  S3BUCKET: aws-code-deploy-github-webappdeploymentbucket-14sttyakht7mr
 
 
 jobs:
