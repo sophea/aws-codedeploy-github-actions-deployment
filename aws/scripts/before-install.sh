@@ -1,9 +1,9 @@
 #!/bin/bash
 set -xe
 
-# Delete the old  directory as needed.
-if [ -d /usr/local/codedeployresources ]; then
-    rm -rf /usr/local/codedeployresources/
-fi
+echo "before-install"
 
-mkdir -vp /usr/local/codedeployresources
+FOLDER_APP="/opt/webapp"
+mkdir
+
+echo "create folder ${FOLDER_APP}"
