@@ -2,4 +2,4 @@
 set -x
 
 
-sudo /etc/init.d/demo stop
+sudo sh /etc/init.d/demo stop
